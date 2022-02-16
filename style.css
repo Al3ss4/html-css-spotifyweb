@@ -53,11 +53,18 @@ span{
     margin-left: 10px;
 }
 
+.mbott30{
+    margin-bottom: 30px;
+}
 .mleft7{
     margin-left: 7px;
 }
-
-h5{
+h2{
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+h5, h4{
     color: white;
     font-size: 15px;
 }
@@ -77,6 +84,14 @@ span, h5{
 
 .flex-start{
     justify-content: flex-start;
+}
+
+p{
+    color: #717171;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 /****** ASIDE *****/
@@ -208,25 +223,89 @@ aside{
 }
 
 .song{
-     width: 100%;
     margin: 0 10px;
     position: relative;
 
 }
 .library{
     display: flex;
-  
+    justify-content: space-around;
+    margin-left: 10px;
 }
-.song img{
+.song img, .song-bot img{
     width: 200px;
 }
-.song-text{
-    text-align: center;
-}
-.cover{
-    display: none;
+
+.cover-quiete{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 46px;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
+.cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    color: white;
+    font-size: 40px;
+}
+
+.text-song{
+    text-align: center;
+    margin-top: 20px;
+}
+.song-bot{
+    width: 210px;
+    margin: 0 10px;
+    position: relative;
+
+}
+
+.library-bot{
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+}
+
+.popolari{
+    border-radius: 50%;
+}
+
+.cover-circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    color: white;
+    font-size: 40px;
+    border-radius: 50%;
+}
+
+.song:hover .cover, .song:hover .cover-circle{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.text-played{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
 /****** / MAIN CENTER ******/
 
 /****** FOOTER ******/
