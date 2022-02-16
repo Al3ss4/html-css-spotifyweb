@@ -31,10 +31,12 @@
                     <img class="icon-play" src="img/search.svg" alt="Ricerca">
                     <span>Ricerca</span>
                 </a>
-                <a class="green icon" href="#"> 
-                    <img class="icon-play" src="img/libreria.svg" alt="La tua liberia">
-                    <span>La tua libreria</span>
-                </a>
+                <div class="flex">
+                    <img class="icon-play icon" src="img/libreria.svg" alt="La tua liberia">
+                    <a class="green" href="#"> 
+                        <span class="mbott10">La tua libreria</span>
+                    </a>
+                </div>
             </div>
             <!-- / commands -->
             <!-- playlist -->
@@ -64,7 +66,7 @@
         <div class="bottom-nav pad20 mleft7">
             <div>
                 <a class="app"href="#">
-                    <i class="far fa-arrow-alt-circle-down"></i>
+                    <i class="far fa-arrow-alt-circle-down mtop3"></i>
                     <span class=" mbott10"> Installa app </span>
                 </a>
             </div>
@@ -79,6 +81,48 @@
     <!-- / bottom-nav -->
     <!-- / aside -->
 <!-- / main -->  
-<footer></footer> 
+<!-- footer -->
+<footer>
+    <!-- music -->
+    <div class="music">
+        <img class="sinister" src="img/sinister.jpeg" alt="sinister">
+        <div class="music-title">
+            <h5>Sinister</h5>
+            <a href="#"><span class="brano">Nome brano</span></a>
+        </div>
+        <div class="music-pref">
+            <a href="#" class="margin-i"><i class="far fa-heart"></i></a>
+            <a href="#"><i class="far fa-folder"></i></a>
+        </div>
+    </div>
+    <div class="pannel">
+        <div class="pannel-top">
+            <a href="#"><i class="fas fa-random"></i></a>
+            <a href="#"><i class="fas fa-step-backward"></i></a>
+            <a href="#"><i class="far fa-play-circle"></i></a>
+            <a href="#"><i class="fas fa-step-forward"></i></a>
+            <a href="#"><i class="fas fa-redo-alt"></i></a>
+        </div>
+        <div class="pannel-bot">
+            <div class="minute"><span>0:25</span></div>
+            <div class="bar">
+                <div id="sliding-bar"></div>
+                <div id="cursor"></div>
+            </div>
+            <div class="minute"><span>4:35</span></div>
+        </div>
+    </div>
+    <div class="volume">
+        <a href="#"><i class="fas fa-list-ul"></i></a>
+        <a href="#"><i class="fas fa-desktop"></i></a>
+        <a href="#"><i class="fas fa-volume-up"></i></a>
+        <div class="bar-small">
+            <div id="sliding-bar-small"></div>
+            <div id="cursor-small"></div>
+        </div>
+    </div>
+
+</footer> 
+<!-- / footer -->
 </body>
 </html>
