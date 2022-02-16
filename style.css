@@ -207,7 +207,7 @@ footer{
 
 .pannel-top a:nth-child(3){
     font-size: 30px;
-    margin: 0 20px;
+    margin: -5px 20px;
 }
 
 .pannel-top a:hover{
@@ -218,21 +218,26 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    margin-top: 15px;
 }
 
+.minute{
+    display: flex;
+
+}
 .minute span{
     color:white;
     font-size: 10px;
 }
 
 .bar{
-    width: 300px;
+    width: 500px;
     height: 4px;
     border-radius: 4px;
     background-color: #595959;
     cursor: pointer;
-    position: relative;    
+    position: relative;   
+    margin-left: 10px; 
 }
 
 #sliding-bar{
@@ -251,8 +256,8 @@ footer{
     position: absolute;
     background-color: white;
     display: none;
-    top: 10px;
-    left: 30px;
+    top: -4px;
+    left: 45px;
 }
 
 .bar:hover #cursor, .bar-small:hover #cursor-small{
