@@ -183,17 +183,18 @@ footer{
 .margin-i{
     margin: 0 20px;
 }
+
 .pannel{
     display: flex;
     justify-content: center;
     width: 60%;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .pannel-top{
     display: flex;
-    padding: 1% 0;
     align-items: center;
+    justify-content: center;
 }
 
 .pannel-top a{
@@ -215,8 +216,9 @@ footer{
 
 .pannel-bot{
     display: flex;
-    align-items: flex-end;
-    /* align-items: center; */
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .minute span{
