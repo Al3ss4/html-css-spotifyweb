@@ -242,11 +242,10 @@ aside{
     left: 0%;
     width: 200px;
     height: 200px;
-    justify-content: center;
-    align-items: center;
     color: white;
     font-size: 46px;
-    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
 }
 
 .cover{
@@ -302,6 +301,10 @@ aside{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+.song .cover-quiete{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+} 
 .text-played{
     margin-left: 30px;
     margin-bottom: 30px;
