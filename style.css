@@ -75,6 +75,9 @@ span, h5{
     display: flex;
 }
 
+.flex-start{
+    justify-content: flex-start;
+}
 
 /****** ASIDE *****/
 
@@ -153,7 +156,11 @@ aside{
     background-color: #141922;
     width: calc(100% - 200px);
 }
-    
+
+.overflow{
+    height: calc(100vh - 90px);
+    overflow-y: scroll;
+}
 .upgrade{
     position: fixed;
     width: 100%;
@@ -189,18 +196,36 @@ aside{
 
 .green-bot {
     border-bottom: 2px solid #adff2f;
-    width: 40px;
-    position: absolute;
-    top: 35px;
-    left: 40%;
+    width: 50%;
+}
+
+.column{
+    flex-direction: column;
 }
 
 .type ul li{
     margin: 10px 10px;
 }
 
+.song{
+     width: 100%;
+    margin: 0 10px;
+    position: relative;
 
-
+}
+.library{
+    display: flex;
+  
+}
+.song img{
+    width: 200px;
+}
+.song-text{
+    text-align: center;
+}
+.cover{
+    display: none;
+}
 
 /****** / MAIN CENTER ******/
 
