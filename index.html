@@ -1,128 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
     <title>Spotify</title>
 </head>
 <!-- inizio main -->
+
 <body>
-    <aside>
-        <div class="left-nav">
-            <!-- logo -->
-            <div class="logo pad20"> <img src="img/logo.svg" alt="logo spotify"></div>
-            <!-- / logo -->
-            <!--  small logo -->
-            <div class="logo-small"><img src="img/logo-small.svg" alt=""></div>
-            <!-- / small logo -->
-            <!-- commands -->
-            <div class="commands">
-                <a class="green icon" href="#"> 
-                    <img class="icon-play" src="img/home.svg" alt="Home">
-                    <span>Home</span>
-                </a>
-                <a class="green icon" href="#"> 
-                    <img class="icon-play" src="img/search.svg" alt="Ricerca">
-                    <span>Ricerca</span>
-                </a>
-                <div class="flex">
-                    <img class="icon-play icon" src="img/libreria.svg" alt="La tua liberia">
-                    <a class="green" href="#"> 
-                        <span class="mbott10">La tua libreria</span>
+    <div class="container">
+        <aside>
+            <div class="left-nav">
+                <!-- logo -->
+                <div class="logo pad20"> <img src="img/logo.svg" alt="logo spotify"></div>
+                <!-- / logo -->
+                <!--  small logo -->
+                <div class="logo-small"><img src="img/logo-small.svg" alt=""></div>
+                <!-- / small logo -->
+                <!-- commands -->
+                <div class="commands">
+                    <a class="green icon" href="#">
+                        <img class="icon-play" src="img/home.svg" alt="Home">
+                        <span>Home</span>
+                    </a>
+                    <a class="green icon" href="#">
+                        <img class="icon-play" src="img/search.svg" alt="Ricerca">
+                        <span>Ricerca</span>
+                    </a>
+                    <div class="flex">
+                        <img class="icon-play icon" src="img/libreria.svg" alt="La tua liberia">
+                        <a class="green" href="#">
+                            <span class="mbott10">La tua libreria</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- / commands -->
+                <!-- playlist -->
+                <div class="new-playlist pad20 mbott15 mleft7">
+                    <h5 class="mbott15">PLAYLIST</h5>
+                    <a href="#">
+                        <i class="fas fa-plus-square square mbott15"></i>
+                        <span class="mbott15 mleft10">Crea playlist</span>
+                    </a>
+                    <div class="playlist">
+                        <ul>
+                            <li><a class="mbott15" href="#">Nome Playlist </a></li>
+                            <li><a class="mbott15" href="#">Nome Playlist </a></li>
+                            <li><a class="mbott15" href="#">Nome Playlist </a></li>
+                            <li><a class="mbott15" href="#">Nome Playlist </a></li>
+                            <li><a class="mbott15" href="#">Nome Playlist </a></li>
+                            <li><a class="mbott15" href="#">Nome Playlist </a></li>
+                            <li><a class="mbott15" href="#">Nome Playlist </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- / playlist -->
+            <!-- bottom-nav-->
+            <div class="bottom-nav pad20 mleft7">
+                <div>
+                    <a class="app" href="#">
+                        <i class="far fa-arrow-alt-circle-down mtop3"></i>
+                        <span class=" mbott10"> Installa app </span>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img class="icon-profile profile" src="img/profile.svg" alt="Profile">
+                        <h5 class="mleft10"> Jhon Doe</h5>
                     </a>
                 </div>
             </div>
-            <!-- / commands -->
-            <!-- playlist -->
-            <div class="new-playlist pad20 mbott15 mleft7">
-                <h5 class="mbott15">PLAYLIST</h5>
-                <a href="#">
-                    <i class="fas fa-plus-square square mbott15"></i>
-                    <span class="mbott15 mleft10">Crea playlist</span>
-                </a>
-                <div class="playlist">
-                    <ul>
-                        <li><a class="mbott15" href="#">Nome Playlist </a></li>
-                        <li><a class="mbott15" href="#">Nome Playlist </a></li>
-                        <li><a class="mbott15" href="#">Nome Playlist </a></li>
-                        <li><a class="mbott15" href="#">Nome Playlist </a></li>
-                        <li><a class="mbott15" href="#">Nome Playlist </a></li>
-                        <li><a class="mbott15" href="#">Nome Playlist </a></li>
-                        <li><a class="mbott15" href="#">Nome Playlist </a></li>
-                    </ul>
-                </div>
+        </aside>
+        <!-- / bottom-nav -->
+        <!-- / aside -->
+        <!-- main center -->
+        <div class="main-center">
+            <div class="upgrade">
+                <a class="btn" href="#">EFFETTUA L'UPGRADE</a>
             </div>
-        </div>
-        <!-- / playlist -->
-        
-        
-        <!-- bottom-nav-->
-        <div class="bottom-nav pad20 mleft7">
-            <div>
-                <a class="app"href="#">
-                    <i class="far fa-arrow-alt-circle-down mtop3"></i>
-                    <span class=" mbott10"> Installa app </span>
-                </a>
+            <div class="type ">
+                <ul>
+                    <li><a href="#">IN EVIDENZA</a></li>
+                    <li><a href="#">PODCAST</a></li>
+                    <li><a href="#">CLASSIFICHE</a></li>
+                    <li><a href="#">GENERI E MOOD</a></li>
+                    <li><a href="#">NUOVE USCITE</a></li>
+                    <li><a href="#">SCOPRI</a></li>
+                </ul>
+                <div class="green-bot"></div>
             </div>
-            <div>
-                <a href="#">
-                    <img class="icon-profile profile"src="img/profile.svg" alt="Profile">
-                    <h5 class="mleft10" > Jhon Doe</h5>
-                </a>
-            </div>
-        </div>
-    </aside>
-    <!-- / bottom-nav -->
-    <!-- / aside -->
-<!-- / main -->  
-<!-- footer -->
-<footer>
-    <!-- music -->
-    <div class="music">
-        <img class="sinister" src="img/sinister.jpeg" alt="sinister">
-        <div class="music-title">
-            <h5>Sinister</h5>
-            <a href="#"><span class="brano">Nome brano</span></a>
-        </div>
-        <div class="music-pref">
-            <a href="#" class="margin-i"><i class="far fa-heart"></i></a>
-            <a href="#"><i class="far fa-folder"></i></a>
         </div>
     </div>
-    <div class="pannel">
-        <div class="pannel-top">
-            <a href="#"><i class="fas fa-random"></i></a>
-            <a href="#"><i class="fas fa-step-backward"></i></a>
-            <a href="#"><i class="far fa-play-circle"></i></a>
-            <a href="#"><i class="fas fa-step-forward"></i></a>
-            <a href="#"><i class="fas fa-redo-alt"></i></a>
-        </div>
-        <div class="pannel-bot">
-            <div class="minute"><span>0:25</span></div>
-            <div class="bar">
-                <div id="sliding-bar"></div>
-                <div id="cursor"></div>
-            </div>
-            <div class="minute"><span>4:35</span></div>
-        </div>
-    </div>
-    <div class="volume">
-        <a href="#"><i class="fas fa-list-ul"></i></a>
-        <a href="#"><i class="fas fa-desktop"></i></a>
-        <a href="#"><i class="fas fa-volume-up"></i></a>
-        <div class="bar-small">
-            <div id="sliding-bar-small"></div>
-            <div id="cursor-small"></div>
-        </div>
-    </div>
+    <!-- / main center -->
 
-</footer> 
-<!-- / footer -->
+
+    <!-- / main -->
+
+
+
+
+
+    <!-- footer -->
+    <footer>
+        <!-- music -->
+        <div class="music">
+            <img class="sinister" src="img/sinister.jpeg" alt="sinister">
+            <div class="music-title">
+                <h5>Sinister</h5>
+                <a href="#"><span class="brano">Nome brano</span> </a>
+            </div>
+            <div class="music-pref">
+                <a href="#" class="margin-i"><i class="far fa-heart"></i></a>
+                <a href="#"><i class="far fa-folder"></i></a>
+            </div>
+        </div>
+        <div class="pannel">
+            <div class="pannel-top">
+                <a href="#"><i class="fas fa-random"></i></a>
+                <a href="#"><i class="fas fa-step-backward"></i></a>
+                <a href="#"><i class="far fa-play-circle"></i></a>
+                <a href="#"><i class="fas fa-step-forward"></i></a>
+                <a href="#"><i class="fas fa-redo-alt"></i></a>
+            </div>
+            <div class="pannel-bot">
+                <div class="minute"><span>0:25</span></div>
+                <div class="bar">
+                    <div id="sliding-bar"></div>
+                    <div id="cursor"></div>
+                </div>
+                <div class="minute"><span>4:35</span></div>
+            </div>
+        </div>
+        <div class="volume">
+            <a href="#"><i class="fas fa-list-ul"></i></a>
+            <a href="#"><i class="fas fa-desktop"></i></a>
+            <a href="#"><i class="fas fa-volume-up"></i></a>
+            <div class="bar-small">
+                <div id="sliding-bar-small"></div>
+                <div id="cursor-small"></div>
+            </div>
+        </div>
+    </footer>
+    <!-- / footer -->
 </body>
+
 </html>

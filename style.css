@@ -11,6 +11,9 @@ body{
     width: 100%;
 }
 
+.container{
+    display: flex;
+}
 a{
     text-decoration: none;
     color: #717171;
@@ -82,6 +85,7 @@ aside{
     height: calc(100vh - 90px);
     padding-top: 10px;
     padding-left: 0px;
+    z-index: 10;
 }
 
 
@@ -140,9 +144,67 @@ aside{
     border-radius: 50%;
 }
 
+/****** / ASIDE *****/
+
+/****** MAIN CENTER ******/
 
 
-/***** footer *****/
+.main-center{
+    background-color: #141922;
+    width: calc(100% - 200px);
+}
+    
+.upgrade{
+    position: fixed;
+    width: 100%;
+    z-index: 8;
+    background-color: rgba(8, 11, 18, 0.4);
+    height: 90px;
+}
+
+.btn{
+    position: fixed;
+    height: 40px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px 40px;
+    top: 0;
+    right: 2%;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.type>*{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    position: relative;
+} 
+
+.green-bot {
+    border-bottom: 2px solid #adff2f;
+    width: 40px;
+    position: absolute;
+    top: 35px;
+    left: 40%;
+}
+
+.type ul li{
+    margin: 10px 10px;
+}
+
+
+
+
+/****** / MAIN CENTER ******/
+
+/****** FOOTER ******/
 
 footer{
     background-color: #282828;
@@ -311,3 +373,4 @@ footer{
     left: 22px;
 }
 
+/****** FOOTER ******/
