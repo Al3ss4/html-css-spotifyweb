@@ -1,8 +1,57 @@
+/****** UTILITY ******/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', 'montserrat', sans-serif;
+    position: relative;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #717171;
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+
+/****** ASIDE *****/
+
+aside{
+    background-color: black;
+    min-width: 200px;
+    max-width: 200px;
+    height: calc(100vh - 90px);
+    padding: 10px;
+}
+
+.commands{
+    margin-top:20px ;
+    height: 250px;
+}
+.logo-small{
+    display: none;
+}
+
+.icon{
+    width: 20%;
+    padding-bottom: 10px ;
+}
+
+
+
+
+
+
+/***** footer *****/
+
+footer{
+    background-color: #282828;
+    width: 100%;
+    height: 90px;
 }
