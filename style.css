@@ -147,6 +147,10 @@ aside{
     height: 525px;
 }
 
+.overflow-playlist{
+    height:calc(100vh - 525px);
+    overflow: auto;
+}
 .app{
     border-bottom: 2px solid #555555;
     width: 90%;
@@ -480,4 +484,13 @@ footer{
     left: 22px;
 }
 
-/****** FOOTER ******/
+/****** / FOOTER ******/
+
+/****** MEDIA QUERY ******/
+
+
+
+
+
+
+/****** / MEDIA QUERY ******/
