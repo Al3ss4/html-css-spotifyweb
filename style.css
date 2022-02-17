@@ -494,3 +494,86 @@ footer{
 
 
 /****** / MEDIA QUERY ******/
+
+@media screen and (max-width: 520px) {
+    aside{
+        min-width: 50px;
+        max-width: 50px;    
+        padding: 10px;
+    }
+    .commands .icon{ 
+        display: inline;
+        margin: 0;
+    }
+    .commands span{
+        display: none;
+    }
+    .flex .icon{
+        display: inline;
+    }
+    .commands .icon-play{
+        display: inline;
+    }
+
+    .new-playlist>*{
+        display: none;
+    }
+    .bottom-nav span, .bottom-nav h5{
+        display: none; 
+    }
+
+    .bottom-nav img{
+        display: inline;
+    }
+    .icon-profile{
+        border-top: none;
+        margin: 0;
+    }
+    .logo img{
+        display: none;
+    }
+    .logo-small{
+        display: inline;
+        height: 40px;
+    }
+    .music{
+        width: 35%;
+    }
+    .volume{
+        width: 30%;
+    }
+    
+    .pannel{
+        width: 195px;
+    }
+    
+   .music .music-pref{
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       margin-right: 40px;
+    }   
+    
+    .green:first-child {
+        border-left: none;
+    }
+    .icon{
+        padding-left: 0;
+        width: 100%;
+    }
+}
+@media screen and (min-width:520px) and (max-width:1500px){
+    .library{
+        flex-wrap: wrap;
+    }
+    .type>*{
+        flex-wrap: wrap;
+    }
+    .main-center .upgrade{
+        position: fixed;
+    }
+    .main-center{
+    
+        width: 100%;
+        }
+}
