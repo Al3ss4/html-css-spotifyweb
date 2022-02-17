@@ -30,7 +30,7 @@ span{
     margin-left: 10px;
 }
 
-.pad20{
+.pad10{
     padding-left: 10px;
 }
 
@@ -500,34 +500,32 @@ footer{
         min-width: 50px;
         max-width: 50px;    
         padding: 10px;
-    }
-    .commands .icon{ 
-        display: inline;
-        margin: 0;
-    }
-    .commands span{
-        display: none;
-    }
-    .flex .icon{
-        display: inline;
-    }
+    } 
+    .new-playlist{
+        height: 460px;
+    } 
     .commands .icon-play{
         display: inline;
     }
-
-    .new-playlist>*{
-        display: none;
+    .icon{
+        padding-left: 0;
+        width: 100%;
     }
-    .bottom-nav span, .bottom-nav h5{
+    .green:first-child {
+        border-left: none;
+    }
+    .bottom-nav span, .bottom-nav h5, .new-playlist>*, .commands span{
         display: none; 
     }
-
-    .bottom-nav img{
-        display: inline;
+    .bottom-nav{
+        padding: 0;
     }
-    .icon-profile{
-        border-top: none;
-        margin: 0;
+    .bottom-nav .app{
+        border-bottom: none;
+    }
+    .bottom-nav img {
+        display: inline;
+
     }
     .logo img{
         display: none;
@@ -554,13 +552,8 @@ footer{
        margin-right: 40px;
     }   
     
-    .green:first-child {
-        border-left: none;
-    }
-    .icon{
-        padding-left: 0;
-        width: 100%;
-    }
+    
+   
 }
 @media screen and (min-width:520px) and (max-width:1500px){
     .library{
